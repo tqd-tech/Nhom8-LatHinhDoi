@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  #board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .card {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    background-color: #fff;
+    border: 2px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
