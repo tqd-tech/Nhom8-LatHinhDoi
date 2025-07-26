@@ -32,7 +32,7 @@ Một mini game lật hình đôi được xây dựng theo mô hình **Client-S
 git clone https://github.com/tqd-tech/Nhom8-LatHinhDoi.git
 cd Nhom8-LatHinhDoi
 npm install
-node server/index.js
+node server.js
 ```
 🚀 Server running on http://localhost:3000
 
@@ -40,11 +40,9 @@ node server/index.js
 ```bash
 git clone https://github.com/tqd-tech/Nhom8-LatHinhDoi.git
 cd Nhom8-LatHinhDoi
-git checkout dev
-git pull origin dev
 git add .
 git commit -m " Mô tả phần vừa làm"
-git push origin dev
+git push origin main
 ```
 ### 3. Quy tắc đặt tên commit
 > Để mọi thành viên commit thống nhất và dễ đọc lịch sử Git, nhóm áp dụng quy tắc sau:
